@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+.main-container{
+    background-color: #fff;
+    min-height: 100vh;
+    padding: 1px;
+}
+.top-container{
+    height: 10vh;
+    width: 100%;
+    padding: 5px;
+    background-color: #bdbbbb;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social-media-icons-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+.image-social-media-icons{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.nav-container{
+    height: 10vh;
+    background-color: #fff;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+
+}
+.profile-pic{
+    margin-right: 5px;
+    height: 80px;
+    width: 80px;
+    margin-left: 25px;
+
+}
+.name-details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.link-container{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link-text{
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+}
+.search-icon{
+    height: 22px;
+    width: 22px;
+}
+.landing-page-container{
+    height: 80vh;
+    padding: 250px;
+    background-image: url("https://img.freepik.com/premium-photo/abstract-background-with-black-gears_476363-1690.jpg?w=900");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.image-photo{
+    border-radius: 20px;
+    background-color: transparent;
+}
+.landing-page-details{
+    
+    margin-left: 25px;
+}
+.heading{
+    font-family: "Roboto";
+    font-size: 32px;
+    counter-reset: #fff;
+    font-weight: 900;
+    color: #ffffff;
+}
+.para{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #c4c3c3;
+}
+.buttn{
+    height: 50px;
+    width: 180px;
+    border: none;
+    background-color: rgb(245, 195, 70);
+    margin: 10px;
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+.buttn1{
+    height: 50px;
+    width: 180px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+.below-landing-container{
+    height: 10vh;
+    background-color: #c4c3c3;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.para-below-landing-text{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #fff;
+}
+.buttn-number{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-image{
+    height: 30px;
+    width: 30px;
+    border-radius: 2px;
+    margin-right: 4px;
+}
+.why-choose-us-container{
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.why-choose-image{
+    height: 600px;
+    width: 600px;
+    border-radius: 10px;
+}
+.why-choose-details-container{
+    font-family: "Roboto";
+    margin-left: 20px;
+}
+.heading-why-coose-us{
+    font-size: 42px;
+    font-weight: 900;
+    color: #000;
+}
+.para-why-choose-us{
+    font-size: 22px;
+    font-weight: 400;
+    color: #393838;
+}
+.why-choose-section-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.small-card-container{
+    display: flex;
+    align-items: center;
+}
+.why-choose-section-images{
+    height: 80px;
+    width: 80px;
+    border-radius: 4px;
+}
+.heading-why-choose-section-image{
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 900;
+    color: #000;
+}
+.para-why-choose-section-image{
+    font-size: 12px;
+    font-weight: 400;
+    color: #535252;
+}
+.horizantal-line{
+    width: 20%;
+    border: 2px solid rgb(9, 9, 255);
+    color: rgb(12, 12, 237);
+    margin-bottom: 10px;
+}
+.our-services-container{
+    height: 65vh;
+    padding: 30px;
+    background-image: url("https://img.freepik.com/free-vector/metalic-gears-background-different-shapes-sizes_1017-28430.jpg?t=st=1730897550~exp=1730901150~hmac=edb3d79f46d3f58e756a0dbf98f8afa80e4f2c27e0272b1978ef066db5028041&w=740");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.our-services-card-main-container{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.our-services-card-container{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(53, 53, 252);
+    font-family: "Roboto";
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.heading-our-services{
+    font-size: 32px;
+    color: #ffffff;
+}
+.horizantal-line-in-our-services{
+    width: 5%;
+    border: 2px solid #fff;
+    text-align: center;
+    border-radius: 4px;
+}
+.our-services-image{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+.engine-heading-text{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+.engine-para-text{
+    font-size: 14px;
+    color: #b5b2b2;
+}
+.our-services-card-container-outline{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid rgb(36, 36, 254);
+    background-color: transparent;
+    font-family: "Roboto";
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+}
+.buttn-in-our-services{
+    border-radius: 12px;
+    padding: 2px;
+}
+.our-projects-container{
+    height: 100vh;
+    padding: 30px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading-our-projects{
+    font-size: 32px;
+    color: #1e1c1c;
+}
+.horizantal-line-in-our-services{
+    width: 5%;
+    border: 2px solid #131313;
+    text-align: center;
+    border-radius: 4px;
+}
+.nav-items-in-our-project{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+.text-all{
+    color: rgb(238, 131, 55);
+}
+.our-projects-card-container{
+    margin: 0px;
+    height: 250px;
+    width: 250px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+.our-project-image{
+    height: 240px;
+    width: 240px;
+    
+}
+.buttn-in-our-projects{
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    padding: 6px;
+}
+.our-projects-card-main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+.above-footer-section-container{
+    height: 100vh;
+
+}
+.above-footer-top-section{
+    height: 50vh;
+    padding: 20px;
+    background-image: url("https://img.freepik.com/free-photo/3d-geometric-abstract-background_1048-13139.jpg?t=st=1730902259~exp=1730905859~hmac=d064e77b9f85729f4c391200477a2f8cf03b6357353d09b6988bfade14a3bfe2&w=1380");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-container-in-above-footer-section{
+    font-family: "roboto";
+    color: #fff;
+    margin: 20px;
+}
+.buttn-in-above-footer-section{
+    border-radius: 10px;
+}
+.above-footer-section-images{
+    height: 300px;
+    width: 300px;
+    border-radius: 14px;
+}
+.above-footer-bottom-section-container{
+    height: 50vh;
+    width: 100%;
+    background-color: #cceffb;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.line-break-in-our-location{
+    width: 20%;
+    border: 2px solid rgb(62, 62, 236);
+    border-radius: 10px;
+}
+.google-map-image{
+    margin-top: 20px;
+    height: 250px;
+    width: 250px;
+}
+form{
+    margin-top: 10px;
+}
+.input-element{
+    height: 40px;
+    width: 250px;
+    font-size: 16px;
+    padding: 2px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.text-area{
+    font-family: "Roboto";
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.footer-section-container{
+    background-color: #000;
+    padding: 30px;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.our-contact-heading{
+    font-size: 22px;
+    color: #c4c3c3;
+    font-weight: 500;
+}
+.list-container{
+    margin-top: 10px;
+    padding: 0px;
+    list-style-type: none;
+    margin: 20px;
+}
+.list-items{
+    color: #cceffb;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.list-items-images{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background: transparent;
+    margin-right: 4px;
+    
+}
+.footer-our-services-section-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    
+
+}
+.offer-section-container{
+    padding: 10px;
+    background-color: #393838;
+    border: 1px solid #b5b2b2;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: -40px 0px 100px #6f7070;
+}
+.text-para-offer{
+    font-size: 20px;
+    font-weight: 600;
+    color: #b5b2b2;
+}
+span{
+    font-size: 42px;
+    color: rgb(230, 150, 13);
+}
+.style-text{
+    font-size: 26px;
+    color: rgb(230, 150, 13);
+}
+.bottom-section{
+    height: 5vh;
+    padding: 5px;
+    background-color: #1e1c1c;
+    text-align: center;
+    color: #cceffb;
+}
